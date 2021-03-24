@@ -15,3 +15,31 @@ html {
     dark: #003322;
     semi-transparent: #40bf9599;
 */
+
+header {
+  min-width: 100%;
+  min-height: 100%;
+  padding: 50px 30px;
+  background-image: url("https://picsum.photos/1200/300");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav li {
+display: inline;
+}
+
+nav {
+  text-align: center;
+  background-color: #40bf9599;
+}
+
+nav a:hover {
+background-color: #40bf95;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
