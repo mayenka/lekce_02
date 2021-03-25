@@ -63,3 +63,12 @@ section {
   overflow: auto;
 }
 
+section img { 
+  width: 205px;
+  float: right;
+  padding-left: 30px;
+}
+
+.uvod {
+  width: 100%;
+}
