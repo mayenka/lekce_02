@@ -37,15 +37,23 @@ display: inline-block;
 padding: var(--spacer);
 }
 
+/*
+.root {
+  --green: hsla(160, 90%, 20%, 1);
+}*/
+
 nav a {
+  color: hsla(160, 90%, 20%, 1);
   text-align: center;
-  background-color: #40bf9599;
+  background-color: hsla(160.2,49.8%,50%,0.3);
   padding: var(--spacer);
   border-radius: var(--spacer);
+  border: 3px solid hsla(160, 90%, 20%, 1);
 }
 
 nav a:hover {
 background-color: #40bf95;
+color: #003322;
 }
 
 h1 {
@@ -64,7 +72,7 @@ main {
 
 section {
   max-width: 60rem;
-  background-color: #40bf95;
+  background-color: hsla(160, 50%, 50%, 0.5);
   padding: var(--spacer);
   border-bottom: 2px dotted #003322;
   overflow: auto;
@@ -100,10 +108,12 @@ section:nth-child(even) img {
 */
 
 :root { 
-  --primary: #40bf95;
+  --primary: hsla(160, 80%, 20%, 1);
 }
 
-h1 {
+h1,
+h2,
+h3 {
   color: var(--primary);
 }
 
